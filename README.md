@@ -11,6 +11,8 @@
 welcoming you when you start a ssh session
 on your server :
 
+- install ponysay
+[here](http://erkin.co/ponysay/pages/ponysay/Installations-basics.html)
 - install figlet to enable ASCII art
 >sudo apt-get install figlet
 
