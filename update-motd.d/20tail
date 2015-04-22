@@ -1,0 +1,4 @@
+#! /bin/sh
+echo "==============================================="
+[ ! -f /etc/motd.tail ] && exit 0
+cat /etc/motd.tail
