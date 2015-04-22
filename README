@@ -1,16 +1,16 @@
 ##############################################
-#											 #
+#                                            #
 # ____   ___  _   ___   __  _     ___   ____ #
 #|  _ \ / _ \| \ | \ \ / / | |   / _ \ / ___|#
 #| |_) | | | |  \| |\ V /  | |  | | | | |  _ #
 #|  __/| |_| | |\  | | |   | |__| |_| | |_| |#
 #|_|    \___/|_| \_| |_|   |_____\___/ \____|#
-#											 #
-#											 #
+#                                            #
+#                                            #
 ##############################################
 
 ==== SSH LOG ====
-- if you would like to have a nive pony
+* if you would like to have a nive pony
 welcoming you when you start a ssh session
 on your server :
 
@@ -37,7 +37,7 @@ $> rm /etc/motd
 # symlink dynamic MOTD file
 $> ln -s /var/run/motd /etc/motd
 
-- else if you would like to have a nive pony
+* else if you would like to have a nive pony
 welcoming you when you source your session bash :
 
 # add the script on your bashrc
