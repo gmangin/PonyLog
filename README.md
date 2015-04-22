@@ -17,8 +17,10 @@ on your server :
 - create directory
 > sudo mkdir /etc/update-motd.d
 
+- create the file of your script
 >sudo emacs /etc/update-motd.d/00-ponies
 
+- that is the awsome pony script
 >sudo cat /etc/update-motd.d/00-ponies
 
 ```
