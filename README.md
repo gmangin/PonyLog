@@ -34,7 +34,7 @@ echo "Welcome $USER" | figlet | ponysay
 > ln -s /var/run/motd /etc/motd
 
 
-- BASHRC LOG
+# BASHRC LOG
 * else if you would like to have a nive pony
 welcoming you when you source your session bash :
 
