@@ -1,9 +1,10 @@
- ____   ___  _   ___   __  _     ___   ____
+```
+____   ___  _   ___   __  _     ___   ____
 |  _ \ / _ \| \ | \ \ / / | |   / _ \ / ___|
 | |_) | | | |  \| |\ V /  | |  | | | | |  _ 
 |  __/| |_| | |\  | | |   | |__| |_| | |_| |
 |_|    \___/|_| \_| |_|   |_____\___/ \____|
-
+```
 
 # SSH LOG
 * if you would like to have a nive pony
@@ -16,13 +17,16 @@ on your server :
 - create directory
 > sudo mkdir /etc/update-motd.d
 
-> sudo emacs /etc/update-motd.d/00-ponies
+>sudo emacs /etc/update-motd.d/00-ponies
 
-> sudo cat /etc/update-motd.d/00-ponies
+>sudo cat /etc/update-motd.d/00-ponies
+
+```
 #! /bin/sh
 echo "==============================================="
 
 echo "Welcome $USER" | figlet | ponysay
+```
 
 - make files executable
 > chmod +x /etc/update-motd.d/*
