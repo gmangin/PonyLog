@@ -15,24 +15,24 @@ on your server :
 >sudo apt-get install figlet
 
 ### create directory
-$> sudo mkdir /etc/update-motd.d
+> sudo mkdir /etc/update-motd.d
 
-$> sudo emacs /etc/update-motd.d/00-ponies
+> sudo emacs /etc/update-motd.d/00-ponies
 
-$> sudo cat /etc/update-motd.d/00-ponies
+> sudo cat /etc/update-motd.d/00-ponies
 #! /bin/sh
 echo "==============================================="
 
 echo "Welcome $USER" | figlet | ponysay
 
 ### make files executable
-$> chmod +x /etc/update-motd.d/*
+> chmod +x /etc/update-motd.d/*
 
 ### remove MOTD file
-$> rm /etc/motd
+> rm /etc/motd
 
 ### symlink dynamic MOTD file
-$> ln -s /var/run/motd /etc/motd
+> ln -s /var/run/motd /etc/motd
 
 
 ### BASHRC LOG
@@ -40,9 +40,9 @@ $> ln -s /var/run/motd /etc/motd
 welcoming you when you source your session bash :
 
 ### add the script on your bashrc
-$> cat >> ~/.bashrc << EOF
+> cat >> ~/.bashrc << EOF
 echo "Welcome $USER" | figlet | ponysay
 EOF
 
 ### just check
-$> source ~/.bashrc
+> source ~/.bashrc
