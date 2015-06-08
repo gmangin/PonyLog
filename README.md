@@ -54,4 +54,4 @@ EOF
 - just check
 > source ~/.bashrc
 
-# Have Fun
+# Have Fun !
